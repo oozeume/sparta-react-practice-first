@@ -7,9 +7,9 @@
     padding: 32px;
     box-sizing: border-box;
     background-color: white;
-    width: 100vw;
-    max-width: 350px;
-    height: 60vh;
+    width: 95vw;
+    max-width: 460px;
+    height: 95vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -27,9 +27,8 @@
 }
 
 .input{
-    width: 80vw;
-    margin: 20px auto;
-    max-width: 250px;
+    width: 200px;
+    margin: 20px 0px 10px 0px;
     border-style: none;
     background-color: #eee;
     border-radius: 20px;

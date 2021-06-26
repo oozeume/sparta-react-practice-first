@@ -1,5 +1,7 @@
 import React from "react";
 import Start from "./Start";
+import Quiz from "./Quiz";
+import Score from "./Score";
 import "./style.css";
 
 class App extends React.Component {
@@ -15,7 +17,8 @@ class App extends React.Component {
       console.log(this.state);
       return (
          <div className="App">
-            <Start name={this.state.name} />
+            <Quiz />
+            {/* <Start name={this.state.name} /> */}
          </div>
       );
    }
